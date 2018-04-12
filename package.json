@@ -1,0 +1,24 @@
+{
+  "name": "classroom",
+  "version": "1.0.0",
+  "description": "for message and file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Classroom-Plus/message.git"
+  },
+  "keywords": [
+    "npm",
+    "node",
+    "package"
+  ],
+  "author": "wayen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Classroom-Plus/message/issues"
+  },
+  "homepage": "https://github.com/Classroom-Plus/message#readme"
+}
