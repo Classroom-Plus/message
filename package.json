@@ -1,24 +1,35 @@
 {
-  "name": "classroom",
+  "name": "bulletin_notice_bot",
   "version": "1.0.0",
-  "description": "for message and file",
+  "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Classroom-Plus/message.git"
+    "url": "git+https://github.com/leon1757tw/Bulletin_Notice_Bot.git"
   },
-  "keywords": [
-    "npm",
-    "node",
-    "package"
-  ],
-  "author": "wayen",
+  "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Classroom-Plus/message/issues"
+    "url": "https://github.com/leon1757tw/Bulletin_Notice_Bot/issues"
   },
-  "homepage": "https://github.com/Classroom-Plus/message#readme"
+  "homepage": "https://github.com/leon1757tw/Bulletin_Notice_Bot#readme",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.2",
+    "jade": "^1.11.0",
+    "jsonwebtoken": "^8.2.0",
+    "lodash": "^4.17.5",
+    "mongoose": "^5.0.9",
+    "mysql2": "^1.5.3",
+    "pg": "^7.4.1",
+    "request": "^2.83.0",
+    "sequelize": "^4.37.3",
+    "uuid": "^3.2.1"
+  }
 }
